@@ -1,4 +1,4 @@
-Workshop 1
+# Workshop 1
 
 How do you print things out the debug area?
 print("...")

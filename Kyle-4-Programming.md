@@ -1,6 +1,10 @@
 # Programming
 
 
+//for requesting permission to use location
+//include in info.plist (bottom of first file list)
+Privacy - Location Always and When In Use Usage Description 
+Privacy - Location When In Use Usage Description
 
 import UIKit
 import CoreLocation

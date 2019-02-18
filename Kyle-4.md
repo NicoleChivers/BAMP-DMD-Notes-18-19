@@ -9,7 +9,8 @@ Privacy - Location When In Use Usage Description
 programming to cooperate with info.plist
 
 import UIKit
-import CoreLocation
+import CoreLocation (not needed if you have imported MapKit)
+import MapKit (if you have a map)
 
 class ViewController: UIViewController {
        let locationManager = CLLocationManager()

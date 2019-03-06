@@ -39,6 +39,15 @@ func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegi
         // colours for marker colour change
     }
     
+class CustomAnnotationView: MKAnnotationView {
+    override var annotation: MKAnnotation? {
+        willSet {
+            guard let custom = newValue as? CustomAnnotation else { return }
+            tintColor = custom.color
+        }
+    }
+}
+    
 extension ViewController: MKMapViewDelegate{
         func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
             guard let annotation = annotation as? CustomAnnotation else {

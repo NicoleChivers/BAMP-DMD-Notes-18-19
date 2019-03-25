@@ -4,6 +4,8 @@
 : = type
 _ = removes need for (type: "Word")
 
+https://iswift.org/playground
+
 # Location-GPS-Simulator.gpx
 <?xml version="1.0"?>
 <gpx version="1.1" creator="Xcode">
